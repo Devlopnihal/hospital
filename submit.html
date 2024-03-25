@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>loading</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=0.1">
+<link rel="stylesheet" href="file:///G:\nihal\hospital\submitstyle.css">
+</head>
+
+
+<body onload="myFunction()" >
+<div class="body">
+<div class="spinner">
+</div>
+</div>
+<div class="popup">
+<div class="popup2">
+<img src="file:///G:/nihal/hospital/successful.jpg">
+<div class="thankyou">
+<h2 class="thanku">Thank You!</h2>
+<pre>
+<p>Your details has been successfully
+	submitted.thank you!</p>
+</pre>
+</div>
+<button onclick="gotolink(this)" value="file:///G:\nihal\hospital\hospital.html" type="submit" class="pop">OK</button>
+</div>
+</div>
+<script src="file:///G:/nihal/hospital/hospital.js"></script>
+<script>
+var preloader = document.querySelector('.body');
+function myFunction(){
+	preloader.style.display = 'none';
+}
+</script>
+</body>
+</html>

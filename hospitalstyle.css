@@ -1,0 +1,308 @@
+html {
+  scroll-behavior: smooth;
+}
+*{
+	margin:0;
+	padding:0;
+	font-family:Arial;
+	border:border-box;
+	
+}
+body{
+	background-image:url('file:///G:/nihal/hospital/26363.jpg');
+	background-repeat:no-repeat;
+	height:800px;
+	width:100%;
+	background-size:cover;
+	backdrop-filter:blur(7px);
+	
+}
+					/*navigation bar*/
+nav{
+	background-color:transparent;
+	height:80px;
+	display:flex;
+	align-items:center;
+	
+}
+.nav-logo{
+	height:50px;
+	width:160px;
+	margin-left:20px;
+}
+.logo{
+	height:40px;
+	width:100%;
+	background-image:url('file:///G:/nihal/logo.png');
+	background-size:cover;
+	margin-left:20px;
+}
+					/*Home section*/
+.sec1{
+}
+.welcome-text{
+	margin:90px 0px 0px 40px;
+}
+.wel-heading{
+	font-size:36px;
+	color:white;
+}
+.wel-perag{
+	font-size:28px;
+	font-weight:300px;
+}
+span{
+	color:tomato;
+}
+
+.learn{
+	color:white;
+	margin:15px;
+	padding:15px;
+	border-radius:7px;
+	background:#fc8d79;
+	width:110px;
+	position:relative;
+	margin-left:35px;
+	top:5em;
+	font-weight:700;
+	transition:0.5s;
+}
+.learn:hover{
+	background:#919090;
+}
+
+						/*emergency form*/
+.wrapper{
+	position:absolute;
+	top:5em;
+	bottom:0;
+	left:25em;
+	right:0;
+	width:460px;
+	height:530px;
+	background:#bacfcb;
+	opacity:0.8;
+	border:2px solid white;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border-radius:20px;
+	backdrop-filter:blur(30px);
+	box-shadow:0 0 30px rgba(0, 0, 0, .5);
+	overflow:hidden;
+	transform:scale(0);
+	transition:transform .5s ease;
+}
+.wrapper.active-popup{
+	transform:scale(1);
+}
+.icon-close{
+	position:absolute;
+	top:0;
+	right:0;
+	height:45px;
+	width:45px;
+	background:#162938;
+	font-size:2em;
+	color:#fff;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border-bottom-left-radius:20px;
+	cursor:pointer;
+	z-index:1;
+}
+.icon-close:hover{
+	background:#091a26;
+}
+.wrapper .formbox{
+	width:100%;
+	padding:40px;
+}
+.formbox h2{
+	font-size:2em;
+	text-align:center;
+}
+.input-box{
+	position:relative;
+	width:100%;
+	height:50px;
+	border-bottom:2px solid black;
+	margin:30px 0;
+}
+.input-box label{
+	position:absolute;
+	top:50%;
+	left:5px;
+	transform:translatey(-50);
+	font-size:1em;
+	font-weight:700;
+	pointer-events:none;
+	transition:.5s;
+}
+.input-box input:focus~label,
+.input-box input:valid~label{
+	top:5px;
+	
+}
+
+.input-box input{
+	width:100%;
+	height:100%;
+	background:transparent;
+	border:none;
+	outline:none;
+	
+}
+.gender{
+	accent-color:#162938;
+	margin:3px;
+}
+.gender label{
+	font-size:1em;
+	font-weight:700;
+}
+.btn{
+	width:100%;
+	height:45px;
+	background:#162938;
+	border:none;
+	outline:none;
+	border-radius:6px;
+	cursor:pointer;
+	font-size:1em;
+	color:#fff;
+	font-weight:500;
+}
+.btn:hover{
+	background:#091a26;
+}
+						/*successful submission*/
+
+				/*about section*/
+.sec2{
+	margin-top:530px;
+	height:1000px;
+	width:100%;
+	background:white;
+	align-items:center;
+	
+}
+.sec3{
+	
+}
+.sec4{
+	
+}
+.intro{
+	height:100%;
+	width:100%;
+}
+img{
+	height:100%;
+	width:100%;
+}
+.menu{
+	margin-left:30rem;
+	display:flex;
+	font-weight:700;
+}
+.btn-popup{
+	height:40px;
+	width:110px;
+	background:#fc8d79;
+	outline:none;
+	border:none;
+	font-size:1.1em;
+	border-radius:4px;
+	color:white;
+	cursor:pointer;
+	font-weight:500;
+	transition:0.5s;
+}
+.btn-popup:hover{
+	background:#919090;
+}
+
+a{
+	color:black;
+	text-decoration:none;
+}
+a:hover{
+	color:white;
+}
+.menu-opt{
+	margin:5px;
+	padding:5px;
+	border-radius:10px;
+	cursor:pointer;
+}
+.menu-opt:hover{
+	background:#fc8d79;
+	transition:0.5s;
+}
+.hosp-image{
+	background-image:url('file:///G:/nihal/hospital/10130.jpg');
+	height:500px;
+	width:800px;
+	background-size:cover;
+	align-items:right;
+	margin-left:-2em;
+}
+
+
+.heading{
+	height:80px;
+	width:700px;
+	text-align:center;
+	font-size:16px;
+	margin-left:275px;
+	margin-top:150px;
+	margin-bottom:100px;
+}
+.bold{
+	font-weight:700;
+	color:#666666;
+	margin:0px 0px 10px;
+}
+.psec{
+	font-size:1.2rem;
+	color:#666666;
+}
+.p2{
+	color:#666666;
+	margin-top:1em;
+	font-size:20px;
+	font-weight:300;
+	text-align:justify;
+	height:100%;
+}
+.about-text{
+	width:35%;
+	height:50%;
+}
+.about{
+	text-align:center;
+}
+.about-flex{
+	display:flex;
+}
+.icon{
+	background:#fc8d79;
+	width:150px;
+	height:100px;
+	text-align:center;
+	align-items:center;
+	justify-content:center;
+	color:white;
+	font-size:3.5rem;
+	border-radius:40px;
+	margin-left:40%;
+	margin-top:10em;
+	
+	
+}
+.fa-info{
+	margin-top:25px;
+}
