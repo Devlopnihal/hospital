@@ -9,7 +9,7 @@ html {
 	
 }
 body{
-	background-image:url('file:///G:/nihal/hospital/26363.jpg');
+	background-image:url('nihal/hospital/26363.jpg');
 	background-repeat:no-repeat;
 	height:800px;
 	width:100%;
@@ -33,7 +33,7 @@ nav{
 .logo{
 	height:40px;
 	width:100%;
-	background-image:url('file:///G:/nihal/logo.png');
+	background-image:url('nihal/logo.png');
 	background-size:cover;
 	margin-left:20px;
 }
@@ -243,7 +243,7 @@ a:hover{
 	transition:0.5s;
 }
 .hosp-image{
-	background-image:url('file:///G:/nihal/hospital/10130.jpg');
+	background-image:url('nihal/hospital/10130.jpg');
 	height:500px;
 	width:800px;
 	background-size:cover;
